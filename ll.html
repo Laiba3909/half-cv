@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Generator</title>
+    <style>
+        /* Basic styles for your CV */
+        #cv {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cv">
+        <h1>Apka Naam</h1>
+        <p>Yeh aapka summary hai.</p>
+        <h2>Tahsilat</h2>
+        <p>Apki tahsilat ki details yahan.</p>
+        <!-- Add more CV details as needed -->
+    </div>
+
+    <button id="downloadButton">PDF Download Karein</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+   <script>
+    document.getElementById("downloadButton").addEventListener("click", function() {
+    const element = document.getElementById("cv");
+    
+    // Options for the PDF
+    const options = {
+        margin:       1,
+        filename:     'CV.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+
+    // Generate PDF
+    html2pdf().from(element).set(options).save();
+});
+
+   </script>
+</body>
+</html>

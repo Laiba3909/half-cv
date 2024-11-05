@@ -1,0 +1,162 @@
+@media (min-width:200px)  and (max-width:1400px){
+    #load{
+         font-size: 23px;
+         margin-left: -32px;
+        
+    }
+
+    .p{
+        font-size: 17px;
+    }
+    .button{
+        display: none;
+    }
+
+    .image2{
+        display: none;
+    }
+
+    .span1 , .hero{
+        margin-left: -30px;
+    }
+
+    .hero{
+        margin-top: 30px;
+        font-size: 43px;
+    }
+    .span1{
+        margin-top: -27px;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    .para{
+        margin-left: 20px;
+        margin-top: -38px;
+    }
+
+    #button2{
+      margin-left: 30px;
+      margin-top: -9px;
+    }
+
+    .logo{
+        margin-left: -30px;
+        width: 30px;
+    }
+}
+
+@media (min-width:600px)  and (max-width:1400px){
+
+    #load{
+        font-size: 32px;
+        margin-left: -32px;
+       
+   }
+
+   .p{
+       font-size: 24px;
+   }
+  .button{
+    display: block;
+   
+  }
+
+  a{
+    text-decoration: none;
+  }
+   
+
+.hero{
+    font-size: 55px;
+}
+
+.span1{
+    font-size: 24px;
+
+}
+
+.para{
+    font-size: 26px;
+}
+}
+
+@media (min-width:899px)  and (max-width:1100px){
+
+    #load{
+        font-size: 40px;
+        margin-left: -32px;
+       
+   }
+
+   .p{
+       font-size: 30px;
+   }
+
+    .button{
+        display: block;
+
+    }
+
+    .hero{
+        font-size: 62px;
+    }
+    a{
+        text-decoration: none;
+    }
+     .image2{
+        display: block;
+        width: 400px;
+        margin-left: -300px;
+     }
+     .para{
+        font-size: 30px;
+        width: 600px;
+        margin-top: -30px;
+    }
+
+    .span1{
+        margin-top: -200px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1100px)  and (max-width:1400px){
+
+
+    #load{
+        font-size: 43px;
+        margin-left: -32px;
+       
+   }
+
+   .p{
+       font-size: 35px;
+   }
+    .image2{
+        display: block;
+        margin-left: -400px;
+        width: 420px;
+    }
+
+    .para{
+        font-size: 30px;
+        width: 600px;
+        margin-top: -30px;
+    }
+
+    .span1{
+        margin-top: -700px;
+        font-size: 25px;
+    } 
+    .para{
+        font-size: 30px;
+        width: 600px;
+        margin-top: -40px;
+    }
+
+    .span1{
+        margin-top: -200px;
+        font-size: 25px;
+    }
+}
